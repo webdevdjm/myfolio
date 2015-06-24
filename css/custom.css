@@ -1,0 +1,327 @@
+/* === COLORS ===
+Green = #02918c
+Yellow = #cfc91d
+=== */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  color: #7e7287;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+h3 {
+  color: #02918c;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 3em;
+  color: #02918c;
+}
+
+.navbar-default {
+  background-color: #02918c;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.navbar-default .navbar-brand>span {
+  color: #cfc91d;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 0 10px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #cfc91d;
+  background: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #cfc91d;
+}
+
+.navbar-header a.navbar-brand:hover {
+  color: #cfc91d;
+}
+
+.navbar-header a.navbar-brand span:hover {
+  color: #fff;
+}
+
+#hero {
+  background: url("../img/jumbo.jpg") no-repeat center top;
+  min-height: 500px;
+  padding: 200px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p.lead {
+  font-weight: 400;
+  font-size: 2.45em;
+}
+
+#hero h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 20px;
+}
+
+#hero h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  margin-top: 50px;
+  background-color: #cfc91d;
+  border: none;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-group-lg>.btn, .btn-lg:hover {
+  background-color: #02918c;
+}
+
+.btn:active {
+  background-color: #02918c;
+}
+#about-me {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#about-me p.intro-text {
+  line-height: 34px;
+  margin-bottom: 80px;
+}
+
+.text-blurb {
+  border-right: 1px solid #ccc;
+  padding: 30px 60px;
+}
+
+.text-blurb:last-child {
+  border: none;
+}
+
+.text-blurb img {
+  margin-bottom: 30px;
+}
+
+.text-blurb h4 {
+  margin-bottom: 30px;
+}
+
+.text-blurb p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* ======== SERVICES SECTION ======== */
+
+
+
+#services .moreinfos-text.content-section {
+  padding-top: 40px;
+}
+
+.nopadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#services {
+    background-color: #f0f0e8; 
+}
+
+.services-bg {
+    position: relative;
+    min-height: 728px;
+    background: url('../img/fingersonlaptop.jpg') no-repeat center center;
+    background-size: cover;
+}
+.services-img {
+    width: 100%;
+    height: 728px;
+    text-align: center;
+    line-height: 400px;
+}
+
+.services-intro-img {
+    position: relative
+}
+
+#services h3 {
+  margin-bottom: 25px;
+}
+
+#services .horizontal-rule {
+  margin-bottom: 15px;
+}
+
+#services p.intro-text {
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+
+.services-text {
+  font-size: 12px;
+  line-height: 20px;
+  padding-right: 50px;
+ 
+}
+
+/* ==========================================================================
+About
+========================================================================== */
+
+
+
+/* ======== PORTFOLIO SECTION ======== */
+
+.no-gutter > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#my-work {
+  text-align: center;
+  padding: 40px 0;
+  background: #FFF;
+}
+
+#my-work p.intro-text {
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.portfolio-box .caption {
+  display: none;
+  position: absolute;
+  top: 40%;
+	left: 40%;
+}
+
+
+
+#contact-me {
+  text-align: center;
+  padding: 40px 0;
+  background: #FFF;
+}
+
+#contact-me p.intro-text {
+  line-height: 34px;
+  margin-bottom: 40px;
+}
+
+
+#contact-form {
+  background: #1d1f1f;
+}
+
+.well {
+  padding-top: 40px;
+  background: #1d1f1f;
+  margin-bottom: 0;
+  border: none;
+}
+
+#contact-form .bigicon {
+  font-size: 35px;
+  color: #cfc91d;
+}
+
+.form-control {
+  background: #1d1f1f;
+  border: 1px solid #808080;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  min-height: 60px;
+  padding-top: 20px;
+}
+
+
+/* ==========================================================================
+MEDIA QUERIES
+========================================================================== */
+
+@media screen and (max-width:991px){
+	.services-img {
+    height: 400px;
+	}
+  .services-bg {
+    min-height: 400px;
+  }
+  .text-blurb {
+    border: none;
+  }
+}
+
+@media screen and (max-width:660px){
+  p.lead {
+    font-weight: 400;
+    font-size: 1.45em;
+}
+
+  #hero h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+    padding: 0;
+}
+
+  #hero h2 {
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+}
