@@ -115,9 +115,6 @@ p.lead {
   background-color: #02918c;
 }
 
-.btn:active {
-  background-color: #02918c;
-}
 #about-me {
   text-align: center;
   padding: 40px 0;
@@ -151,8 +148,6 @@ p.lead {
 }
 
 /* ======== SERVICES SECTION ======== */
-
-
 
 #services .moreinfos-text.content-section {
   padding-top: 40px;
@@ -204,12 +199,6 @@ p.lead {
  
 }
 
-/* ==========================================================================
-About
-========================================================================== */
-
-
-
 /* ======== PORTFOLIO SECTION ======== */
 
 .no-gutter > [class*=col-] {
@@ -246,8 +235,6 @@ About
 	left: 40%;
 }
 
-
-
 #contact-me {
   text-align: center;
   padding: 40px 0;
@@ -258,7 +245,6 @@ About
   line-height: 34px;
   margin-bottom: 40px;
 }
-
 
 #contact-form {
   background: #1d1f1f;
